@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/pexels-dids-2790954.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/pexels-dids-2790954.jpg");
   background-position: 50% 66.79%;
 }
 
@@ -45,9 +45,22 @@
 }
 
 .u-section-1 .u-text-3 {
-  margin-top: 0;
-  font-size: 1.125rem;
+  margin-top: 20px;
   margin-bottom: 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-5 {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin-left: 0;
 }
 
 @media (max-width: 1199px) {
@@ -1029,11 +1042,7 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 476px;
-  }
-
-  .u-section-3 .u-layout-wrap-1 {
-    position: relative;
+    min-height: 117px;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -1059,7 +1068,7 @@
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1158px;
+    min-height: 287px;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -1081,7 +1090,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 2377px;
+    min-height: 513px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -1119,7 +1128,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1534px;
+    min-height: 373px;
   }
 
   .u-section-3 .u-layout-cell-2 {
