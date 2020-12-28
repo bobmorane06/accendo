@@ -229,7 +229,7 @@
     font-size: 1.5rem;
   }
 }.u-section-3 {
-  background-image: linear-gradient(to right, white, #b3b3b3);
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/pexels-picha-za-ted-4800923.jpg");
 }
 
 .u-section-3 .u-sheet-1 {
@@ -237,7 +237,8 @@
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .u-section-3 .u-layout-cell-1 {
@@ -281,7 +282,9 @@
 .u-section-3 .u-line-1 {
   height: 6px;
   transform-origin: left center 0px;
-  margin: 15px 0 0;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 .u-section-3 .u-text-4 {
@@ -307,6 +310,7 @@
 .u-section-3 .u-line-2 {
   height: 6px;
   transform-origin: left center 0px;
+  background-image: none;
   margin: 15px 0 0;
 }
 
@@ -385,27 +389,31 @@
 .u-section-3 .u-line-5 {
   margin-top: 4px;
   margin-bottom: 0;
-  height: 3px;
+  height: 6px;
   transform-origin: left center 0px;
+  margin-left: 0;
 }
 
 .u-section-3 .u-text-12 {
   letter-spacing: normal;
   line-height: 1.4;
+  font-weight: 600;
   text-transform: none;
   margin: 4px 0 0;
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 {
+    background-position: 50% 50%;
+  }
+
   .u-section-3 .u-sheet-1 {
-    min-height: 694px;
+    min-height: 379px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
     margin-bottom: 0;
     position: relative;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -417,7 +425,6 @@
   }
 
   .u-section-3 .u-line-1 {
-    margin-right: initial;
     margin-left: initial;
   }
 
@@ -451,6 +458,10 @@
     min-height: 151px;
   }
 
+  .u-section-3 .u-line-5 {
+    margin-left: initial;
+  }
+
   .u-section-3 .u-text-12 {
     margin-top: 36px;
   }
@@ -458,11 +469,11 @@
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 473px;
+    min-height: 281px;
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 278px;
+    min-height: 100px;
   }
 
   .u-section-3 .u-text-1 {
@@ -496,11 +507,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1148px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 481px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -510,14 +517,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 890px;
-  }
-
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 133px;
-  }
-
   .u-section-3 .u-text-1 {
     width: auto;
   }
@@ -527,9 +526,8 @@
   }
 
   .u-section-3 .u-line-2 {
-    width: 320px;
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-3 .u-text-6 {
@@ -550,7 +548,7 @@
     margin-top: 10px;
   }
 }.u-section-4 {
-  background-image: linear-gradient(to right, #b3b3b3, white);
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/pexels-miguel--padrin-3785931.jpg");
 }
 
 .u-section-4 .u-sheet-1 {
@@ -666,6 +664,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 79px;
   }
