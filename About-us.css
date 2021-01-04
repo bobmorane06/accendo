@@ -4,11 +4,11 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1200px;
+  min-height: 1096px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin: 40px auto -112px 0;
+  margin: 40px auto 40px 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -554,6 +554,7 @@
 .u-section-2 .u-list-item-8 {
   margin-top: 0;
   margin-bottom: 0;
+  animation-duration: 1000ms;
 }
 
 .u-section-2 .u-container-layout-18 {
@@ -561,11 +562,11 @@
 }
 
 .u-section-2 .u-image-8 {
-  width: 255px;
-  height: 255px;
+  width: 180px;
+  height: 180px;
   background-image: url("images/Chris.jpg");
   background-position: 50% 50%;
-  margin: 0 245px 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .u-section-2 .u-icon-8 {
@@ -606,6 +607,7 @@
 .u-section-2 .u-list-item-9 {
   margin-top: 0;
   margin-bottom: 0;
+  animation-duration: 1000ms;
 }
 
 .u-section-2 .u-container-layout-20 {
@@ -613,11 +615,11 @@
 }
 
 .u-section-2 .u-image-9 {
-  width: 255px;
-  height: 255px;
+  width: 180px;
+  height: 180px;
   background-image: url("images/bhupihighdpiround.png");
   background-position: 50% 50%;
-  margin: 0 245px 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .u-section-2 .u-icon-9 {
@@ -658,6 +660,7 @@
 .u-section-2 .u-list-item-10 {
   margin-top: 0;
   margin-bottom: 0;
+  animation-duration: 1000ms;
 }
 
 .u-section-2 .u-container-layout-22 {
@@ -665,11 +668,11 @@
 }
 
 .u-section-2 .u-image-10 {
-  width: 255px;
-  height: 255px;
+  width: 180px;
+  height: 180px;
   background-image: url("images/manabonnetstetson1.png");
   background-position: 50% 50%;
-  margin: 0 245px 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .u-section-2 .u-icon-10 {
@@ -710,6 +713,7 @@
 .u-section-2 .u-list-item-11 {
   margin-top: 0;
   margin-bottom: 0;
+  animation-duration: 1000ms;
 }
 
 .u-section-2 .u-container-layout-24 {
@@ -717,11 +721,11 @@
 }
 
 .u-section-2 .u-image-11 {
-  width: 255px;
-  height: 255px;
+  width: 180px;
+  height: 180px;
   background-image: url("images/Tim.png");
   background-position: 50% 50%;
-  margin: 0 245px 0 auto;
+  margin: 0 auto 0 0;
 }
 
 .u-section-2 .u-icon-11 {
@@ -762,8 +766,6 @@
 .u-section-2 .u-text-28 {
   letter-spacing: 0px;
   font-size: 1.25rem;
-  text-transform: uppercase;
-  font-weight: 300;
   margin: 32px 0 40px;
 }
 
@@ -853,6 +855,11 @@
 
   .u-section-2 .u-text-25 {
     margin-right: 52px;
+  }
+
+  .u-section-2 .u-text-28 {
+    text-transform: none;
+    font-weight: normal;
   }
 }
 
@@ -1021,15 +1028,7 @@
     font-size: 1.5rem;
   }
 
-  .u-section-2 .u-image-8 {
-    margin-right: 65px;
-  }
-
   .u-section-2 .u-icon-8 {
-    margin-right: 65px;
-  }
-
-  .u-section-2 .u-image-9 {
     margin-right: 65px;
   }
 
@@ -1037,15 +1036,7 @@
     margin-right: 65px;
   }
 
-  .u-section-2 .u-image-10 {
-    margin-right: 65px;
-  }
-
   .u-section-2 .u-icon-10 {
-    margin-right: 65px;
-  }
-
-  .u-section-2 .u-image-11 {
     margin-right: 65px;
   }
 
